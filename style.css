@@ -1,0 +1,51 @@
+*{
+	padding:0px;
+	margin:0px;
+	background-color:#4F4F4F;
+	font-family:"Times New Roman";
+}
+
+form{
+	margin-top:150px;
+	padding:1%;
+	margin-left:20%;
+	width:60%;
+	height:25%;
+	border:2px solid #999898;
+	border-radius:5px;
+	
+}
+
+form input{
+	border-radius:5px;
+	padding-left:3px;
+	font-size:17px;
+	width:100%;
+	height:45px;
+	border:#ccc;
+	background-color:white;
+}
+
+form textarea{
+	border-radius:5px;
+	padding:3px;
+	font-size:17px;
+	background-color:white;
+	max-width:100%;
+	min-width:100%;
+	height:60px;
+}
+
+form legend{
+	color:#fff;
+	font-weight:bold;
+	font-size:27px;
+	text-shadow:1px 1px #bbb;
+}
+
+#search:hover{
+	font-weight: bold;
+	background-color:#ccc;
+	border:1px solid #fff;
+	color:#fff;
+}
